@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our wide range of headphones, from over-ear to in-ear models, featuring the latest in audio technology and design. Find your perfect sound companion today!">
+    <meta name="keywords" content="headphones, over-ear headphones, in-ear headphones, wireless headphones, noise cancelling headphones, audio equipment">
+    <meta name="author" content="Resonance team">
+    <title>Resonance - Headphone</title>
+    <link rel="stylesheet" href="styling/headphones.css">
+   
+</head>
+<body>
+<div style="background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url('assets/image2.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <nav class="navbar">
+        <div class="logo">RESO<span>NANCE</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="headphones.html" class="active-link">Headphones</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>- All Headphones -</h1>
+    </header>
+</div>
+    <section class="shop-container">
+        
+        <aside class="sidebar">
+            <div class="filter-group">
+                <h3>Category</h3>
+                <ul>
+                    <li><input type="checkbox" id="cat1"> <label for="cat1">Over-Ear</label></li>
+                    <li><input type="checkbox" id="cat2"> <label for="cat2">On-Ear</label></li>
+                    <li><input type="checkbox" id="cat3"> <label for="cat3">In-Ear / Buds</label></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h3>Features</h3>
+                <ul>
+                    <li><input type="checkbox" id="feat1"> <label for="feat1">Noise Cancelling</label></li>
+                    <li><input type="checkbox" id="feat2"> <label for="feat2">Wireless</label></li>
+                    <li><input type="checkbox" id="feat3"> <label for="feat3">Water Resistant</label></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <div class="price-slider">
+                    <input type="range" min="50" max="500" value="250" class="slider">
+                    <p>Max Price: $<span id="price-val">250</span></p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="product-grid">
+            
+            <div class="shop-card" data-category="over-ear">
+                <div class="shop-img">
+                    <div class="badge">New</div>
+                    <img src="assets/1.png" width="200px" loading="lazy"> </div>
+                <div class="shop-details">
+                    <h3>SonicScape Pro</h3>
+                    <div class="rating">
+                    </div>
+                    <p class="shop-price">$299.00</p>
+                    <button class="btn-shop">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-card" data-category="in-ear">
+                <div class="shop-img">
+                    <img src="assets/2.png" width="200px" loading="lazy">
+                </div>
+                <div class="shop-details">
+                    <h3>BassWave One</h3>
+                    <div class="rating">
+                    </div>
+                    <p class="shop-price">$149.00</p>
+                    <button class="btn-shop">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-card" data-category="over-ear">
+                <div class="shop-img">
+                    <div class="badge sale">Sale</div>
+                    <img src="assets/3.png" width="200px" loading="lazy">
+                </div>
+                <div class="shop-details">
+                    <h3>Clarity Air</h3>
+                    <div class="rating">
+                
+                    </div>
+                    <p class="shop-price"><span class="old-price">$150</span> $99.00</p>
+                    <button class="btn-shop">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-card" data-category="on-ear">
+                <div class="shop-img">
+                    <img src="assets/4.png" width="200px" loading="lazy">
+                </div>
+                <div class="shop-details">
+                    <h3>Zenith NoiseGard</h3>
+                    <div class="rating">
+                    </div>
+                    <p class="shop-price">$89.00</p>
+                    <button class="btn-shop">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-card" data-category="over-ear">
+                <div class="shop-img">
+                    <img src="assets/5.png" width="200px" loading="lazy">
+                </div>
+                <div class="shop-details">
+                    <h3>PulseFlex Sport</h3>
+                    <div class="rating">
+                    </div>
+                    <p class="shop-price">$159.00</p>
+                    <button class="btn-shop">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-card" data-category="in-ear">
+                <div class="shop-img">
+                    <img src="assets/6.png" width="200px" loading="lazy">
+                </div>
+                <div class="shop-details">
+                    <h3>RetroFidelity</h3>
+                    <div class="rating">
+                    </div>
+                    <p class="shop-price">$149.00</p>
+                    <button class="btn-shop">Add to Cart</button>
+                </div>
+            </div>
+
+        </main>
+    </section>
+
+    <section class="comparison-wrapper">
+        <h2 class="section-title">Not sure which to pick?</h2>
+        <p class="section-subtitle">Compare our Bestsellers</p>
+
+        <div class="compare-grid">
+            
+            <div class="compare-card">
+                <div class="c-img"><img src="assets/6.png" width="160px" loading="lazy"></div> <h3>RetroFidelity</h3>
+                <p class="c-price">$149.00</p>
+                <ul class="c-specs">
+                    <li><i class="fas fa-headphones-alt"></i> Over-Ear Fit</li>
+                    <li><i class="fas fa-ban"></i> Active Noise Cancel</li>
+                    <li><i class="fas fa-tint-slash" style="color:#555"></i> Not Waterproof</li>
+                    <li><i class="fas fa-battery-full"></i> 40h Battery</li>
+                </ul>
+                <button class="btn-compare">Buy This</button>
+            </div>
+
+            <div class="vs-circle">VS</div>
+
+            <div class="compare-card">
+                <div class="c-img"><img src="assets/5.png" width="200px" loading="lazy"></div> <h3>PulseFlex Sport</h3>
+                <p class="c-price">$159.00</p>
+                <ul class="c-specs">
+                    <li><i class="fas fa-ear-listen"></i> In-Ear Secure</li>
+                    <li><i class="fas fa-volume-down"></i> Passive Isolation</li>
+                    <li><i class="fas fa-tint" style="color:#00ff00"></i> <strong>IPX7 Waterproof</strong></li>
+                    <li><i class="fas fa-battery-half"></i> 12h Battery</li>
+                </ul>
+                <button class="btn-compare">Buy This</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo">RESO<span>NANCE</span></div>
+                <p>Redefining how you listen to the world. Premium audio equipment for audiophiles and casual listeners alike.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="headphones.html">Headphones</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="support.html">Contact Us</a></li>
+                    <li><a href="support.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SoundScapes. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
